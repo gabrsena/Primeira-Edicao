@@ -152,7 +152,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
-  padding: 2rem 0 4rem;
+  padding: 7rem 0 4rem;
 }
 
 .section__title {
@@ -339,14 +339,16 @@ img {
 }
 
 .home__scroll{
-  display: none;
-  
-  
+  display: block;
+  text-align: center;
+  animation: jumping 3s linear infinite;
   }
   
-
-
-
+  @keyframes jumping {
+  from{transform: translateY(-10px);}
+  50% {transform: translateY(0);}
+  to {transform: translateY(-10px);}
+  }
 
 .home__scroll-button{
   color: var(--first-color);
@@ -761,10 +763,14 @@ img {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 384px) {
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .section{
+    padding: 3rem 0px 4rem;
   }
 
   .nav__menu{
@@ -842,6 +848,8 @@ img {
     justify-content: center;
   }
 
+  
+
 }
 
 @media screen and (min-width: 768px){
@@ -855,7 +863,7 @@ img {
   }
 
   .section{
-    padding: 6rem 0 2rem;
+    padding: 11rem 0 5rem;
   }
   .section__subtitle{
     margin-bottom: 4rem;
