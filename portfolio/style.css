@@ -152,7 +152,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
-  padding: 7rem 0 4rem;
+  padding: 7rem 0 10rem;
 }
 
 .section__title {
@@ -285,6 +285,7 @@ img {
   box-shadow: 0 -1px 4px rgb(0,0,0,.15);
 }
 /*==================== HOME ====================*/
+
 .home__container{
   gap: 1rem;
 }
@@ -316,7 +317,7 @@ img {
 }
 
 .home__blob-img{
-    width:290px;
+    width:300px;
 }
 
 .home__data{
@@ -410,7 +411,7 @@ img {
 }
 /*==================== ABOUT ====================*/
 .about__img{
-  width:130px;
+  width:150px;
   border-radius: .7rem;
   justify-self: center;
   align-self: center;
@@ -863,7 +864,7 @@ img {
   }
 
   .section{
-    padding: 11rem 0 5rem;
+    padding: 11rem 0 7rem;
   }
   .section__subtitle{
     margin-bottom: 4rem;
@@ -931,7 +932,7 @@ img {
   }
 
   .about__img{
-    width: 250px;
+    width: 220px;
   }
 
   .about__description{
